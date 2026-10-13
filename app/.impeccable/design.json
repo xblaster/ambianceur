@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-13T20:30:00Z",
+  "title": "Design System: Ambianceur",
+  "extensions": {
+    "colorMeta": {
+      "paper-night": { "role": "neutral", "displayName": "Papier nuit", "canonical": "#171a3a", "tonalRamp": ["#0b0d1f", "#121530", "#171a3a", "#20244d", "#2d3266", "#454b8a", "#7a7fb8", "#c9cbe6"] },
+      "paper-night-raised": { "role": "neutral", "displayName": "Papier nuit relevé", "canonical": "#20244d", "tonalRamp": ["#0d0f24", "#151838", "#20244d", "#2a2f60", "#3a4078", "#555b96", "#8a8fc0", "#d0d2ea"] },
+      "fluo-turquoise": { "role": "primary", "displayName": "Turquoise riso", "canonical": "#24d6c3", "tonalRamp": ["#063a35", "#0a5c54", "#118277", "#1aac9d", "#24d6c3", "#5fe2d3", "#9eeee5", "#dbfaf6"] },
+      "riso-yellow": { "role": "secondary", "displayName": "Jaune riso", "canonical": "#ffe800", "tonalRamp": ["#3d3700", "#665c00", "#998a00", "#ccb900", "#ffe800", "#fff04d", "#fff699", "#fffbd9"] },
+      "bone-ink": { "role": "neutral", "displayName": "Encre os", "canonical": "#f4f0e6", "tonalRamp": ["#2e2c26", "#55524a", "#7d7a70", "#a6a297", "#cfcabe", "#e4e0d4", "#f4f0e6", "#fbf9f4"] },
+      "lilac-dim": { "role": "neutral", "displayName": "Lilas éteint", "canonical": "#a4a5cc", "tonalRamp": ["#1f2033", "#3a3b57", "#565880", "#7c7ea6", "#a4a5cc", "#bebfdc", "#d8d9ec", "#f0f0f8"] }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Affichage", "purpose": "Marque, code de partie, nom et chiffre révélés, fin de partie ; capitales avec passe turquoise décalée." },
+      "headline": { "displayName": "Question", "purpose": "La question en cours, en casse normale." },
+      "title": { "displayName": "Titre de section", "purpose": "Joueurs, Catégories, compteurs." },
+      "body": { "displayName": "Texte", "purpose": "Consignes, aide, noms, messages." },
+      "label": { "displayName": "Étiquette", "purpose": "Boutons, pastilles, minuteur." }
+    },
+    "shadows": [
+      { "name": "misregistration", "value": "text-shadow: 0.045em 0.035em 0 #24d6c3", "purpose": "Passe turquoise décalée sous tout texte d'affichage ; seul décalage du système." }
+    ],
+    "motion": [
+      { "name": "ease-press", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Décélération franche sans rebond pour tous les états et entrées." },
+      { "name": "register", "value": "0.55s, délai 0.8s", "purpose": "Recalage de la révélation : la passe turquoise glisse jusqu'à son repérage, vibration simultanée." }
+    ],
+    "breakpoints": [
+      { "name": "column-max", "value": "520px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Plaque (bouton principal)",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "L'unique aplat inversé de l'écran : l'action à faire maintenant.",
+      "html": "<button class=\"ds-btn-plate\">Lancer la partie</button>",
+      "css": ".ds-btn-plate { min-height: 64px; padding: 10px 18px; border: 2px solid #24d6c3; border-radius: 0; background: #24d6c3; color: #171a3a; font-family: 'Anybody Variable', 'Arial Narrow', sans-serif; font-stretch: 70%; font-weight: 800; font-size: 1.6rem; letter-spacing: 0.04em; text-transform: uppercase; cursor: pointer; transition: background-color .15s cubic-bezier(.16,1,.3,1), transform .15s cubic-bezier(.16,1,.3,1); } .ds-btn-plate:hover { background: #f4f0e6; border-color: #f4f0e6; } .ds-btn-plate:active { transform: translate(1px, 2px); } .ds-btn-plate:focus-visible { outline: 3px solid #ffe800; outline-offset: 2px; }"
+    },
+    {
+      "name": "Bouton secondaire",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Contour os, pour les actions d'appoint (Inviter, Révéler, Pause).",
+      "html": "<button class=\"ds-btn-secondary\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.25\" stroke-linecap=\"square\"><path d=\"M12 4v11M7 9l5-5 5 5M5 14v6h14v-6\"/></svg>Inviter</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 10px 18px; border: 2px solid #f4f0e6; border-radius: 0; background: transparent; color: #f4f0e6; font-family: 'Anybody Variable', 'Arial Narrow', sans-serif; font-stretch: 70%; font-weight: 800; font-size: 1.15rem; letter-spacing: 0.04em; text-transform: uppercase; cursor: pointer; } .ds-btn-secondary:hover { color: #24d6c3; border-color: #24d6c3; } .ds-btn-secondary:focus-visible { outline: 3px solid #ffe800; outline-offset: 2px; }"
+    },
+    {
+      "name": "Champ de saisie",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "Fond papier relevé, contour atténué qui passe au turquoise au focus.",
+      "html": "<label class=\"ds-field\"><span>Ton pseudo</span><input placeholder=\"Ex. Paulo\"></label>",
+      "css": ".ds-field { display: flex; flex-direction: column; gap: 6px; color: #a4a5cc; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; } .ds-field input { min-height: 48px; padding: 12px 14px; border: 2px solid rgb(244 240 230 / 28%); border-radius: 0; background: #20244d; color: #f4f0e6; font: inherit; font-size: 1.15rem; } .ds-field input::placeholder { color: #a4a5cc; } .ds-field input:focus { outline: none; border-color: #24d6c3; }"
+    },
+    {
+      "name": "Tampon (avatar)",
+      "kind": "custom",
+      "description": "Anneau d'encre tourné, motif du joueur au centre ; encre stable par joueur.",
+      "html": "<span class=\"ds-stamp\"><span>🦊</span></span>",
+      "css": ".ds-stamp { display: inline-grid; place-items: center; width: 60px; height: 60px; border: 5px solid #24d6c3; border-radius: 50%; transform: rotate(-6deg); } .ds-stamp span { font-size: 30px; transform: rotate(6deg); }"
+    },
+    {
+      "name": "Cellules de vote",
+      "kind": "custom",
+      "description": "Cellules entières bord à bord ; la sélection est un aplat turquoise.",
+      "html": "<div class=\"ds-cells\"><button>Léa</button><button class=\"on\">Max</button><button>Inès</button></div>",
+      "css": ".ds-cells { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 2px solid #f4f0e6; border-left: 2px solid #f4f0e6; } .ds-cells button { min-height: 96px; border: 0; border-right: 2px solid #f4f0e6; border-bottom: 2px solid #f4f0e6; background: transparent; color: #f4f0e6; font-family: 'Atkinson Hyperlegible', system-ui, sans-serif; font-weight: 700; cursor: pointer; } .ds-cells button.on { background: #24d6c3; color: #171a3a; } .ds-cells button:focus-visible { outline: 3px solid #ffe800; outline-offset: -3px; }"
+    },
+    {
+      "name": "Nom révélé et plaque de score",
+      "kind": "custom",
+      "description": "Le recalage : capitales condensées jaunes sur passe turquoise décalée, score sur plaque jaune.",
+      "html": "<div class=\"ds-reveal\"><span class=\"ds-name\">Léa</span><span class=\"ds-plate\">7 voix sur 12</span></div>",
+      "css": ".ds-reveal { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; } .ds-name { font-family: 'Anybody Variable', 'Arial Narrow', sans-serif; font-stretch: 58%; font-weight: 900; font-size: 9rem; line-height: .84; text-transform: uppercase; color: #ffe800; text-shadow: .045em .035em 0 #24d6c3; } .ds-plate { padding: 5px 12px 3px; background: #ffe800; color: #171a3a; font-family: 'Anybody Variable', 'Arial Narrow', sans-serif; font-stretch: 60%; font-weight: 900; font-size: 1.9rem; text-transform: uppercase; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le Tirage Riso",
+    "overview": "Chaque écran est une feuille tirée sur papier bleu nuit avec deux encres vives. Le turquoise fait le travail, le jaune n'arrive que lorsque quelque chose tombe. Les titres sont composés en capitales très condensées avec une passe turquoise légèrement décalée. L'app reste un outil de jeu : filets francs, cellules bord à bord, une seule plaque inversée par écran. Le moment signature est le recalage de la révélation, avec vibration simultanée de tous les téléphones.",
+    "keyCharacteristics": [
+      "Papier nuit, deux encres vives, texte os.",
+      "Capitales condensées Anybody pour tout ce qui se lit de loin, Atkinson Hyperlegible pour tout ce qui se lit de près.",
+      "Filets de 2 px, angles vifs, aucune ombre floue.",
+      "États en marques imprimées : plein = choisi, creux = libre, pointillé = indisponible.",
+      "Une seule plaque inversée par écran."
+    ],
+    "rules": [
+      { "name": "La Règle du Jaune Rare", "body": "Le jaune n'apparaît que pour un résultat ou une urgence. Un élément jaune qui n'annonce rien vide la révélation de son effet.", "section": "colors" },
+      { "name": "La Règle Sans Jugement", "body": "Oui et Non ne prennent jamais vert et rouge : ce sont deux cellules jumelles, marquées en turquoise seulement quand on les choisit.", "section": "colors" },
+      { "name": "La Règle de la Passe Décalée", "body": "Tout texte d'affichage reçoit sa passe turquoise décalée de 0,045em × 0,035em, sans flou. Jamais de texte en dégradé.", "section": "typography" },
+      { "name": "La Règle de l'Encre Plate", "body": "Aucune ombre portée floue, aucun verre dépoli. Le seul décalage autorisé est celui de la passe turquoise sur le texte.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do garder le fond papier nuit sur tous les écrans.",
+      "Do imprimer chaque texte d'affichage avec sa passe turquoise décalée.",
+      "Do composer les choix en cellules entières bord à bord.",
+      "Do réserver le jaune au résultat et à l'urgence.",
+      "Do dessiner les pictogrammes au trait (SVG), jamais avec des emoji ou des caractères."
+    ],
+    "donts": [
+      "Don't utiliser de rayon d'angle hors des tampons d'avatar.",
+      "Don't utiliser d'ombre floue, de dégradé ou de texte en dégradé.",
+      "Don't colorer Oui/Non en vert et rouge.",
+      "Don't mettre deux plaques pleines sur un même écran.",
+      "Don't composer une question longue en capitales."
+    ]
+  }
+}

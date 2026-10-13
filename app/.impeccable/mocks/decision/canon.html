@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html,body { width:390px; height:844px; overflow:hidden; background:#46178f; color:#fff; font-family:Montserrat, system-ui, sans-serif; }
+  body { padding:18px 16px 16px; display:flex; flex-direction:column; }
+  .top { display:flex; justify-content:space-between; font-weight:800; font-size:16px; }
+  .pill { background:rgba(255,255,255,.18); border-radius:99px; padding:4px 12px; }
+  .q { margin-top:16px; background:#fff; color:#222; border-radius:10px; padding:16px; font-weight:800; font-size:23px; text-align:center; box-shadow:0 4px 0 rgba(0,0,0,.25); }
+  .podium { margin-top:34px; display:flex; align-items:flex-end; justify-content:center; gap:8px; height:330px; }
+  .col { width:108px; display:flex; flex-direction:column; align-items:center; gap:8px; }
+  .col .who { font-weight:900; font-size:24px; }
+  .col .bar { width:100%; border-radius:8px 8px 0 0; display:grid; place-items:start center; padding-top:10px; font-weight:900; font-size:30px; box-shadow:0 4px 0 rgba(0,0,0,.25); }
+  .c1 .bar { height:210px; background:#ffa602; }
+  .c2 .bar { height:140px; background:#1368ce; }
+  .c3 .bar { height:100px; background:#26890c; }
+  .msg { margin-top:18px; text-align:center; font-weight:900; font-size:30px; }
+  .next { margin-top:auto; text-align:center; font-weight:700; font-size:18px; opacity:.85; }
+  .host { margin-top:12px; display:grid; grid-template-columns:repeat(3,1fr); gap:8px; }
+  .host button { height:52px; border:0; border-radius:8px; font-family:inherit; font-weight:800; font-size:20px; color:#fff; box-shadow:0 4px 0 rgba(0,0,0,.3); }
+  .b1 { background:#e21b3c; } .b2 { background:#1368ce; } .b3 { background:#333; }
+</style>
+</head>
+<body>
+  <div class="top"><span class="pill">7 / 20</span><span class="pill">12 joueurs</span></div>
+  <p class="q">Qui oublierait son propre anniversaire ?</p>
+  <div class="podium">
+    <div class="col c2"><span class="who">Max</span><div class="bar">3</div></div>
+    <div class="col c1"><span class="who">Léa 👑</span><div class="bar">7</div></div>
+    <div class="col c3"><span class="who">Inès</span><div class="bar">2</div></div>
+  </div>
+  <p class="msg">C'est Léa !</p>
+  <p class="next">Question suivante dans 5 s</p>
+  <div class="host"><button class="b1">Suite</button><button class="b2">Pause</button><button class="b3">Arrêter</button></div>
+</body>
+</html>

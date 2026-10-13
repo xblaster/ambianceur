@@ -1,0 +1,758 @@
+[
+ {
+  "id": "soft-01",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui serait le mieux en tutu ?"
+ },
+ {
+  "id": "soft-02",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui survivrait le plus longtemps sur une île déserte ?"
+ },
+ {
+  "id": "soft-03",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui est le plus susceptible d'arriver en retard à son propre mariage ?"
+ },
+ {
+  "id": "soft-04",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui ferait le meilleur président de la République ?"
+ },
+ {
+  "id": "soft-05",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui a le plus beau sourire ?"
+ },
+ {
+  "id": "soft-06",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui rit le plus fort ?"
+ },
+ {
+  "id": "soft-07",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui serait le premier à pleurer devant un dessin animé ?"
+ },
+ {
+  "id": "soft-08",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui ferait le meilleur prof ?"
+ },
+ {
+  "id": "soft-09",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui cuisine le mieux ?"
+ },
+ {
+  "id": "soft-10",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui pourrait devenir célèbre un jour ?"
+ },
+ {
+  "id": "soft-11",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui garderait le mieux un secret ?"
+ },
+ {
+  "id": "soft-12",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui se perdrait dans sa propre ville ?"
+ },
+ {
+  "id": "soft-13",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui adopterait dix chats ?"
+ },
+ {
+  "id": "soft-14",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui est le plus râleur ?"
+ },
+ {
+  "id": "soft-15",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui serait le meilleur parent ?"
+ },
+ {
+  "id": "soft-16",
+  "category": "soft",
+  "type": "vote",
+  "text": "Qui a le meilleur goût musical ?"
+ },
+ {
+  "id": "soft-17",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà dormi à la belle étoile ?"
+ },
+ {
+  "id": "soft-18",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà pleuré devant un film cette année ?"
+ },
+ {
+  "id": "soft-19",
+  "category": "soft",
+  "type": "yesno",
+  "text": "Sais-tu faire du vélo sans les mains ?"
+ },
+ {
+  "id": "soft-20",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà parlé à ta plante verte ?"
+ },
+ {
+  "id": "soft-21",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu peur du noir ?"
+ },
+ {
+  "id": "soft-22",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà mangé un plat tombé par terre ?"
+ },
+ {
+  "id": "soft-23",
+  "category": "soft",
+  "type": "yesno",
+  "text": "Chantes-tu sous la douche ?"
+ },
+ {
+  "id": "soft-24",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà fait semblant d'être malade pour éviter une soirée ?"
+ },
+ {
+  "id": "soft-25",
+  "category": "soft",
+  "type": "yesno",
+  "text": "Lis-tu la fin d'un livre avant de le commencer ?"
+ },
+ {
+  "id": "soft-26",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà gagné un concours ?"
+ },
+ {
+  "id": "soft-27",
+  "category": "soft",
+  "type": "yesno",
+  "text": "Dors-tu encore avec une peluche ?"
+ },
+ {
+  "id": "soft-28",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà oublié l'anniversaire d'un proche ?"
+ },
+ {
+  "id": "soft-29",
+  "category": "soft",
+  "type": "yesno",
+  "text": "Te parles-tu à toi-même à voix haute ?"
+ },
+ {
+  "id": "soft-30",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà raté un avion ou un train ?"
+ },
+ {
+  "id": "soft-31",
+  "category": "soft",
+  "type": "yesno",
+  "text": "Préfères-tu le salé au sucré ?"
+ },
+ {
+  "id": "soft-32",
+  "category": "soft",
+  "type": "yesno",
+  "text": "As-tu déjà fait un câlin à un arbre ?"
+ },
+ {
+  "id": "fun-01",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui finirait en garde à vue après une soirée ?"
+ },
+ {
+  "id": "fun-02",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui enverrait un message à son ex à 3 h du matin ?"
+ },
+ {
+  "id": "fun-03",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui danserait sur la table en premier ?"
+ },
+ {
+  "id": "fun-04",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui serait éliminé en premier dans un film d'horreur ?"
+ },
+ {
+  "id": "fun-05",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui pourrait mentir à la police sans ciller ?"
+ },
+ {
+  "id": "fun-06",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui a la pire playlist ?"
+ },
+ {
+  "id": "fun-07",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui ferait un excellent candidat de téléréalité ?"
+ },
+ {
+  "id": "fun-08",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui serait capable de manger un insecte pour 20 € ?"
+ },
+ {
+  "id": "fun-09",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui a le plus de chances de devenir influenceur ?"
+ },
+ {
+  "id": "fun-10",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui chanterait faux au karaoké avec le plus d'assurance ?"
+ },
+ {
+  "id": "fun-11",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui oublierait le prénom de quelqu'un dans cette pièce ?"
+ },
+ {
+  "id": "fun-12",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui serait le meilleur braqueur de banque ?"
+ },
+ {
+  "id": "fun-13",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui ferait le pire colocataire ?"
+ },
+ {
+  "id": "fun-14",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui passerait sa vie sur son téléphone s'il le pouvait ?"
+ },
+ {
+  "id": "fun-15",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui serait le premier à tomber dans une arnaque en ligne ?"
+ },
+ {
+  "id": "fun-16",
+  "category": "fun",
+  "type": "vote",
+  "text": "Qui rejoindrait une secte par curiosité ?"
+ },
+ {
+  "id": "fun-17",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà stalké quelqu'un de cette pièce sur les réseaux ?"
+ },
+ {
+  "id": "fun-18",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà menti sur ton âge ?"
+ },
+ {
+  "id": "fun-19",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà été mis à la porte d'une soirée ?"
+ },
+ {
+  "id": "fun-20",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà gardé un billet trouvé par terre ?"
+ },
+ {
+  "id": "fun-21",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà envoyé un message à la mauvaise personne ?"
+ },
+ {
+  "id": "fun-22",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà fait semblant de connaître une chanson ?"
+ },
+ {
+  "id": "fun-23",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà regifté un cadeau ?"
+ },
+ {
+  "id": "fun-24",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà fini une soirée en pyjama chez des inconnus ?"
+ },
+ {
+  "id": "fun-25",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà dansé seul devant ton miroir cette semaine ?"
+ },
+ {
+  "id": "fun-26",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà fait un selfie à un enterrement ?"
+ },
+ {
+  "id": "fun-27",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà menti dans ce jeu ?"
+ },
+ {
+  "id": "fun-28",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà été bloqué par quelqu'un sur les réseaux ?"
+ },
+ {
+  "id": "fun-29",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà dit « je suis en route » alors que tu étais sous la douche ?"
+ },
+ {
+  "id": "fun-30",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà pris un fou rire à un moment très mal choisi ?"
+ },
+ {
+  "id": "fun-31",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà mangé le dernier morceau en cachette ?"
+ },
+ {
+  "id": "fun-32",
+  "category": "fun",
+  "type": "yesno",
+  "text": "As-tu déjà fait une sieste au travail ?"
+ },
+ {
+  "id": "perso-01",
+  "category": "perso",
+  "type": "vote",
+  "text": "À qui confierais-tu ton plus gros secret ?"
+ },
+ {
+  "id": "perso-02",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui te connaît le mieux ici ?"
+ },
+ {
+  "id": "perso-03",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui appellerais-tu en premier en cas de galère à 4 h du matin ?"
+ },
+ {
+  "id": "perso-04",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui a le plus changé depuis que vous vous connaissez ?"
+ },
+ {
+  "id": "perso-05",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui cache le mieux ses émotions ?"
+ },
+ {
+  "id": "perso-06",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui est le plus sensible sous ses airs de dur ?"
+ },
+ {
+  "id": "perso-07",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui donne les meilleurs conseils ?"
+ },
+ {
+  "id": "perso-08",
+  "category": "perso",
+  "type": "vote",
+  "text": "Avec qui partirais-tu en tour du monde ?"
+ },
+ {
+  "id": "perso-09",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui est le plus loyal ?"
+ },
+ {
+  "id": "perso-10",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui doute le plus de lui ?"
+ },
+ {
+  "id": "perso-11",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui mériterait d'être plus écouté ?"
+ },
+ {
+  "id": "perso-12",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui t'a déjà le plus surpris ?"
+ },
+ {
+  "id": "perso-13",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui est le plus généreux ?"
+ },
+ {
+  "id": "perso-14",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui serait le témoin idéal à ton mariage ?"
+ },
+ {
+  "id": "perso-15",
+  "category": "perso",
+  "type": "vote",
+  "text": "Qui a le cœur le plus grand ?"
+ },
+ {
+  "id": "perso-16",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà eu le cœur brisé ?"
+ },
+ {
+  "id": "perso-17",
+  "category": "perso",
+  "type": "yesno",
+  "text": "Es-tu fier de toi en ce moment ?"
+ },
+ {
+  "id": "perso-18",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà regretté une rupture ?"
+ },
+ {
+  "id": "perso-19",
+  "category": "perso",
+  "type": "yesno",
+  "text": "Es-tu déjà tombé amoureux de quelqu'un de cette pièce ?"
+ },
+ {
+  "id": "perso-20",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà menti à tes parents sur quelque chose d'important ?"
+ },
+ {
+  "id": "perso-21",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu peur de vieillir ?"
+ },
+ {
+  "id": "perso-22",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà été jaloux d'un ami présent ce soir ?"
+ },
+ {
+  "id": "perso-23",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu un rêve que tu n'as jamais avoué ?"
+ },
+ {
+  "id": "perso-24",
+  "category": "perso",
+  "type": "yesno",
+  "text": "Penses-tu être plus heureux qu'il y a cinq ans ?"
+ },
+ {
+  "id": "perso-25",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà pleuré au travail ou en cours ?"
+ },
+ {
+  "id": "perso-26",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà pardonné quelque chose d'impardonnable ?"
+ },
+ {
+  "id": "perso-27",
+  "category": "perso",
+  "type": "yesno",
+  "text": "Voudrais-tu changer de métier ?"
+ },
+ {
+  "id": "perso-28",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà dit « je t'aime » sans le penser ?"
+ },
+ {
+  "id": "perso-29",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà coupé les ponts avec un ami proche ?"
+ },
+ {
+  "id": "perso-30",
+  "category": "perso",
+  "type": "yesno",
+  "text": "Crois-tu au coup de foudre ?"
+ },
+ {
+  "id": "perso-31",
+  "category": "perso",
+  "type": "yesno",
+  "text": "As-tu déjà demandé de l'aide à un psy ?"
+ },
+ {
+  "id": "coquin-01",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui a le plus de succès en soirée ?"
+ },
+ {
+  "id": "coquin-02",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui embrasse le mieux, à ton avis ?"
+ },
+ {
+  "id": "coquin-03",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui a le plus d'ex ?"
+ },
+ {
+  "id": "coquin-04",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui serait le plus à l'aise en naturiste ?"
+ },
+ {
+  "id": "coquin-05",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui a le plus de charme ici ?"
+ },
+ {
+  "id": "coquin-06",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui draguerait le serveur ou la serveuse ?"
+ },
+ {
+  "id": "coquin-07",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui a l'historique de navigation le plus gênant ?"
+ },
+ {
+  "id": "coquin-08",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui oserait un rendez-vous à l'aveugle ce soir ?"
+ },
+ {
+  "id": "coquin-09",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui garde les photos les plus compromettantes ?"
+ },
+ {
+  "id": "coquin-10",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui serait le plus doué au strip-poker ?"
+ },
+ {
+  "id": "coquin-11",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui ferait le meilleur candidat d'une émission de dating ?"
+ },
+ {
+  "id": "coquin-12",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui rougit le plus vite ?"
+ },
+ {
+  "id": "coquin-13",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui enverrait le premier un message coquin ?"
+ },
+ {
+  "id": "coquin-14",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui a le plus de secrets d'alcôve ?"
+ },
+ {
+  "id": "coquin-15",
+  "category": "coquin",
+  "type": "vote",
+  "text": "Qui a le plus séduisant regard ?"
+ },
+ {
+  "id": "coquin-16",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà embrassé quelqu'un de cette pièce ?"
+ },
+ {
+  "id": "coquin-17",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "Serais-tu prêt à faire un bain de minuit tout nu ce soir ?"
+ },
+ {
+  "id": "coquin-18",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà utilisé une appli de rencontre ?"
+ },
+ {
+  "id": "coquin-19",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà eu un coup d'un soir ?"
+ },
+ {
+  "id": "coquin-20",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà envoyé une photo osée ?"
+ },
+ {
+  "id": "coquin-21",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà fantasmé sur quelqu'un de cette pièce ?"
+ },
+ {
+  "id": "coquin-22",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà été surpris dans une situation gênante ?"
+ },
+ {
+  "id": "coquin-23",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà embrassé quelqu'un dont tu ne connaissais pas le prénom ?"
+ },
+ {
+  "id": "coquin-24",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà dragué l'ex d'un ami ?"
+ },
+ {
+  "id": "coquin-25",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà fait l'amour dans un lieu public ?"
+ },
+ {
+  "id": "coquin-26",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà menti sur ton nombre de partenaires ?"
+ },
+ {
+  "id": "coquin-27",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà eu un crush sur un prof ou un chef ?"
+ },
+ {
+  "id": "coquin-28",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "Dors-tu nu ?"
+ },
+ {
+  "id": "coquin-29",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà eu un rendez-vous catastrophique cette année ?"
+ },
+ {
+  "id": "coquin-30",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "As-tu déjà fait le premier pas ?"
+ },
+ {
+  "id": "coquin-31",
+  "category": "coquin",
+  "type": "yesno",
+  "text": "Serais-tu prêt à embrasser la personne à ta gauche pour 50 € ?"
+ }
+]

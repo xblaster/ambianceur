@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+  :root { --steel:#2a2c30; --flap:#121212; --white:#f2f2f2; --amber:#f5a623; --dim:#8a8f96; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  html,body { width:390px; height:844px; overflow:hidden; background:var(--steel); color:var(--white);
+    font-family:"Barlow Condensed", system-ui, sans-serif; }
+  body { padding:18px 14px 16px; display:flex; flex-direction:column; }
+  .top { display:flex; justify-content:space-between; font-weight:700; font-size:18px; letter-spacing:.12em; text-transform:uppercase; color:var(--dim); }
+  .top b { color:var(--amber); }
+  .q { margin-top:12px; font-weight:700; font-size:26px; line-height:1.05; }
+  .label { margin-top:26px; font-weight:800; font-size:16px; letter-spacing:.2em; color:var(--amber); text-transform:uppercase; }
+  .flaps { margin-top:10px; display:grid; grid-template-columns:repeat(5,1fr); gap:5px; }
+  .flaps span { position:relative; height:104px; background:var(--flap); border-radius:4px; display:grid; place-items:center;
+    font-weight:800; font-size:86px; line-height:1; box-shadow:inset 0 -2px 0 #000; }
+  .flaps span::after { content:""; position:absolute; left:0; right:0; top:50%; height:2px; background:#000; }
+  .score { margin-top:10px; display:flex; gap:5px; }
+  .score span { background:var(--flap); padding:6px 10px; font-weight:800; font-size:28px; border-radius:3px; }
+  .score .a { color:var(--amber); }
+  table { margin-top:26px; width:100%; border-collapse:collapse; }
+  th { text-align:left; font-weight:700; font-size:15px; letter-spacing:.16em; color:var(--dim); padding-bottom:6px; text-transform:uppercase; }
+  td { background:var(--flap); border-top:4px solid var(--steel); height:50px; padding:0 12px; font-weight:700; font-size:26px; text-transform:uppercase; }
+  td.n { text-align:right; color:var(--amber); width:70px; }
+  .next { margin-top:auto; display:flex; justify-content:space-between; align-items:center; background:var(--flap); height:48px; padding:0 14px;
+    font-weight:800; font-size:22px; letter-spacing:.08em; text-transform:uppercase; }
+  .next b { color:var(--amber); font-size:30px; }
+  .host { margin-top:10px; display:grid; grid-template-columns:repeat(3,1fr); gap:6px; }
+  .host button { height:52px; border:0; border-radius:4px; background:#3d4046; color:var(--white); font-family:inherit; font-weight:800; font-size:22px; text-transform:uppercase; }
+  .host .p { background:var(--amber); color:#1a1200; }
+</style>
+</head>
+<body>
+  <div class="top"><span>Question <b>07</b></span><span>12 joueurs</span></div>
+  <p class="q">Qui oublierait son propre anniversaire ?</p>
+  <p class="label">Résultat</p>
+  <div class="flaps"><span>L</span><span>É</span><span>A</span><span></span><span></span></div>
+  <div class="score"><span class="a">07</span><span>VOIX / 12</span></div>
+  <table>
+    <tr><th>Joueur</th><th style="text-align:right">Voix</th></tr>
+    <tr><td>Max</td><td class="n">03</td></tr>
+    <tr><td>Inès</td><td class="n">02</td></tr>
+  </table>
+  <div class="next"><span>Suite</span><b>0:05</b></div>
+  <div class="host"><button class="p">Suite</button><button>Pause</button><button>Arrêter</button></div>
+</body>
+</html>
